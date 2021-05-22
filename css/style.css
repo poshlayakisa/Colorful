@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Carton-Slab";
+    src: url(../font/Carton-Slab.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+p {
+    color: #5e5e5e;
+    font-family: "Roboto";
+    font-size: 19px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    color: white;
+    font-family: "Carton-Slab";
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+h2 {
+    color: #323232;
+    font-family: "Roboto";
+    font-size: 32px;
+    text-align: center;
+}
+
+h3 {
+    color: #323232;
+    font-family: "Roboto";
+    font-size: 23px;
+    text-align: center;
+}
+
+header {
+    height: 660px;
+    background-image: url(../images/Shape\ 1.jpg); 
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    width: 125px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+    color: #3a494c;
+    border-radius: 10px;
+    line-height: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 125px;
+}
+
+nav ul li a:hover, nav ul li:hover {
+    color: #a8d5dd;
+    background-color: #3a494c;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+.tagline {
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+}
+
+.tagline h1 {
+    margin-top: 200px;
+}
+.pc {
+    margin-left: 120px;
+    margin-top: 100px;
+    background-image: url(../images/Layer\ 1.png);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.points a {
+    height: 25px;
+    border: 3px solid white;
+    width: 25px;
+    border-radius: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+.points a:hover {
+    background-color: white;
+}
+
+.white {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+article p {
+    color: #5e5e5e;
+    font-family: "Roboto";
+    font-size: 19px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.white .container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card_1, .card_2, .card_3 {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 145px;
+    margin-bottom: 35px;
+}
+
+.card_1 {
+    background-image: url(../images/iPhone.png);
+}
+
+.card_2 {
+    background-image: url(../images/Light\ Bulb.png)
+}
+
+.card_3 {
+    background-image: url(../images/Browser.png)
+}
+
+.green {
+    background-image: url(../images/Shape\ 5\ copy.jpg);
+}
+
+.heading {
+    padding-top: 70px;
+    margin-bottom: 95px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.heading p {
+    color: rgba(255,255,255,0.5)
+}
+
+.categories {
+    padding-left: 180px;
+    padding-right: 220px;
+}
+
+.categories ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories ul li {
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 4px solid rgba(255,255,255,0);
+    transition: 0.3s;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: lighter;
+    color: white;
+    border-radius: 10px;
+    line-height: 40px;
+    display: inline-block;
+    height: 40px;
+    
+}
+
+.categories ul li:first-child {
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    
+}
+
+.categories .fbuton {
+    color: #a2a3a3;
+}
+.categories ul li:hover {
+    color: #a2a3a3;
+    border: 4px solid white;
+
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.pictures img {
+    width: 350px;
+    height: 260px;
+    margin-top: 70px;
+}
+
+.button {
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #a2a3a3;
+    border-radius: 10px;
+    padding: 35px 30px 35px 30px;
+    margin-bottom: 115px;
+    margin-left: 42%;
+}
+
+.whitetwo {
+    background-color: white;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text article {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 115px;
+    padding-top: 75px;
+}
+
+.strip {
+    height: 1px;
+    background-color: #cacaca;
+    width: 100%;
+}
+
+.text_yi .button {
+    margin: 0;
+    background-color: #9ad4a6;
+    color: white;
+    margin-top: 25px;
+}
+
+.text_yi {
+    padding-left: 80px;
+    margin-top: 20px;
+}
+
+.text_er {
+    padding-right: 80px;
+    margin-top: 20px;
+}
+.text_er .button {
+    margin: 0;
+    background-color: #a5d3db;
+    color: white;
+    margin-top: 25px;
+}
+
+.text_yi p, .text_er p {
+    text-align:left
+}
+
+.text article img {
+    width: 335px;
+    height: 270px;
+}
+
+.text_yi, .text_er {
+    width: 800px;
+}
+
+.pink {
+    background-image: url(../images/Shape\ 5\ copy\ 2.jpg);
+}
+
+.pink .team {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.kard {
+    width: 350px;
+    height: 510px;
+    margin-bottom: 120px;
+}
+
+.kard .avatar {
+    background-color: #e9e9e9;
+    height: 230px;
+}
+
+.kard .avatar img {
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.kard .description {
+    background-color: #fff;
+    height: 280px;
+}
+
+.kard .description .media {
+    display: flex;
+    justify-content: center;
+}
+
+.description h2 {
+    font-family: "Carton-Slab";
+    padding-top: 20px;
+}
+
+.description p {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+.bluetwo {
+    background-image: url(../images/Shape\ 5\ copy\ 3.jpg);
+}
+
+.bluetwo .recent {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.kart {
+    width: 380px;
+    height: 440px;
+    margin-bottom: 35px;
+}
+
+.kart .strel {
+    background-color: #e9e9e9;
+    height: 190px;
+}
+
+.kart .strel img {
+    margin-right: 140px;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+
+.kart .descriptionn {
+    background-color: #fff;
+    height: 270px;
+}
+
+.descriptionn h2 {
+    padding-top: 20px;
+}
+
+.descriptionn p {
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.buttone {
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #b2d3de;
+    border-radius: 10px;
+    padding: 35px 30px 35px 30px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    margin-left: 42%;
+}
+
+.black {
+    background-color: #3c3d3d;
+}
+
+.hdng h1{
+    padding-top: 70px;
+    color: #d3d0d0;
+}
+
+.hdng p {
+    color: #fefefe;
+}
+
+.shape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.shape input {
+    font-family: "Roboto";
+    font-size: 29px;
+    color: #a3a3a3;
+    width: 760px;
+    height: 80px;
+    margin-top: 35px;
+    border-radius: 10px;
+    text-shadow: none;
+    outline-style: none;
+    text-indent: 30px;
+    cursor: text;
+    border-style: none;
+    vertical-align: top;
+}
+
+.shape input:nth-child(3) {
+    width: 760px;
+    height: 210px;
+    padding-bottom: 120px;
+}
+
+.stripp {
+    height: 1px;
+    background-color: #171717;
+    width: 100%;
+}
+
+.buttonnn {
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #3c3c3c;
+    border-radius: 10px;
+    padding: 35px 30px 35px 30px;
+    margin-top: 52px;
+    margin-bottom: 95px;
+    margin-left: 42%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+.social img{
+    margin-right: 16px;
+}
+
+footer .inscription {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inscription p {
+color: #a2a3a3;
+}
+
+.inscription p span {
+color: #fed57e;
+}
+
+.inscription p:nth-child(2) {
+margin-right: 10px;
+margin-left: 10px;
+}
